@@ -21,7 +21,7 @@ local ScreechSafeRooms = {}
 local PrimaryPart = Character.PrimaryPart
 local CurrentRooms = workspace.CurrentRooms
 if ReplicatedStorage.RemotesFolder.Name == "RemotesFolder" then
-ReplicatedStorage.RemotesFolder.Name == "EntityInfo"
+ReplicatedStorage.RemotesFolder.Name = "EntityInfo"
 end
 local EntityInfo = ReplicatedStorage.EntityInfo
 local ClientModules = ReplicatedStorage.ClientModules
